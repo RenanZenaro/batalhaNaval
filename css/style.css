@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
+
+#resultados {
+    height: 200px;
+    border: 5px solid #000;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+table {
+    max-width: 100%;
+}
+
+th, td {
+    height: 50px;
+    width: 50px;
+}
+
+img {
+    height: 100%;
+}
+
+.header {
+    background-color: crimson;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.acertou {
+    background-color: green;
+}
+
+.errou {
+    background-color: aqua;
+}
