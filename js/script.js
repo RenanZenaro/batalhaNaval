@@ -59,7 +59,7 @@ function sortearBarcos() {
 }
 
 function atirar(img) {
-    if (posicoesBarcos[img]) {
+    if (posicoesBarcos[img.name]) {
         img.src = posicoesBarcos[img.name];
         img.className = "acertou";
     } else {
